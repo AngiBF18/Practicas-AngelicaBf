@@ -21,8 +21,9 @@ s= float (input("Cucharadas de Sal:"))
  #Valor total 
 Bowl= a+h+s
 Sarten= Bowl+A
-Coción= (Sarten * 10) / 100
+Coción= (Sarten * 10) / 100 
+Total= Sarten - Coción
 #Volúmen total 
 print("Esta es su cantidad total:", Sarten)
-print ("Este es su volumen total después de la coción:", Coción)
+print ("Este es su volumen total después de la coción:", Total)
 
